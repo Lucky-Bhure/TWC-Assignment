@@ -85,7 +85,7 @@ Create a `.env` file in the Backend directory with necessary environment variabl
 
 ```bash
 cd Backend
-npm start OR npm run dev OR node src/app.js
+node src/app.js
 ```
 
 Server runs on configured port (typically http://localhost:3001)
@@ -124,3 +124,4 @@ Follow the existing project structure when adding new features.
 ## License
 
 This project is part of the Technology World Creator assignment.
+
