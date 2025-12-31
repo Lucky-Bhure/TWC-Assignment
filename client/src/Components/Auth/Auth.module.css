@@ -1,0 +1,155 @@
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  gap: 2rem;
+}
+
+.authForm {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.authTitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}
+
+.submitButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.4);
+}
+
+.toggleText {
+  text-align: center;
+  margin-top: 1rem;
+  color: #4a5568;
+}
+
+.toggleLink {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toggleLink:hover {
+  text-decoration: underline;
+}
+
+.logoutButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: #b00020;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background: #e11d48;
+}
+
+.updateBtn {
+  border: 2px solid #dc2626;
+  border-radius: 999px;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  color: #dc2626;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.updateBtn:hover {
+  background: #414141;
+  border-color: #414141;
+  color: #e2e8f0;
+}
+
+.updateBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.4);
+}
+
+
+@media screen and (max-width: 480px) {
+.authForm {
+  width: 80%
+}
+
+  .authForm {
+    padding: 1.5rem;
+  }
+
+  .updateBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .label {
+  font-size: 1rem;
+}
+}
